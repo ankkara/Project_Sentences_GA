@@ -1,0 +1,43 @@
+                    ---->THE VARIABLE]<-------
+______________________________________________________________
+=> int      -> number                       -> 1
+=> float    -> float                        -> 0,0000001
+=> short    -> integer                      -> - 32 767 between 32 767
+=> char     -> character                    -> 'a'
+=> char *   -> string (array of characters) -> "abc"
+=> char **  -> double array of strings      -> ["abc", "efg", "klm"]
+=> int  *  -> array of numbers              -> [1, 2, 3]
+
+
+=> 1) CHAR
+char c = 'a'
+
+=> 2) CHAR *
+char *str = "abc"
+how to get one character -> str[0] == 'a'
+
+the string finish all time by the character '\0'
+why does the string finish all time by the character '\0' ?
+this is how to fill a string
+str[0] = 'h'
+str[1] = 'e'
+str[2] = 'l'
+str[3] = 'l'
+str[4] = 'o'
+str[5] = '\0' <<<< we tell our computer the end of the string because without that it doesn't know the end
+
+
+=> 2) CHAR **
+char **array = ["abc", "efg", "klm"]
+how to get one string -> array[0] == "abc"
+how to get one character -> array[0][0] == 'a'
+
+the array of string finish all time by the value NULL
+why does the string finish all time by the value NULL ?
+this is how to fill a array of string
+str[0] = "abc"
+str[1] = "edf"
+str[2] = "ght"
+str[3] = NULL <<<< we tell our computer the end of the string because without that it doesn't know the end
+
+

@@ -1,0 +1,50 @@
+My text analyzer is the program who will SHOW us everything about each sentence
+
+1) which sentence if there is many to analyze
+2) size of the sentence
+3) the number of alphanumeric and number who are not alphanumeric in the sentence
+4) the number number in the sentence
+5) the number lowercase letters in the sentence
+6) the number uppercase letters in the sentence
+
+you got some example here !
+
+
+./a.out "Hi how are you ?"  "Hello muy bien and too" "je vais bien thanks, so tell me how old are you ?" "tengo 19 anios"
+SENTENCE n° 1 : "Hi how are you ?"
+LENGTH : 16
+        In this sentence there are 11 alphanumeric characters and 5 is not alphanumeric characters.
+                => there are 0 numbers.
+                => there are 10 lowercase letters.
+                => there are 1 uppercase letters.
+
+SENTENCE n° 2 : "Hello muy bien and too"
+LENGTH : 22
+        In this sentence there are 18 alphanumeric characters and 4 is not alphanumeric characters.
+                => there are 0 numbers.
+                => there are 17 lowercase letters.
+                => there are 1 uppercase letters.
+
+SENTENCE n° 3 : "je vais bien thanks, so tell me how old are you ?"
+LENGTH : 49
+        In this sentence there are 36 alphanumeric characters and 13 is not alphanumeric characters.
+                => there are 0 numbers.
+                => there are 36 lowercase letters.
+                => there are 0 uppercase letters.
+
+SENTENCE n° 4 : "tengo 19 anios"
+LENGTH : 14
+        In this sentence there are 12 alphanumeric characters and 2 is not alphanumeric characters.
+                => there are 2 numbers.
+                => there are 10 lowercase letters.
+                => there are 0 uppercase letters.
+
+
+
+
+Attention to te indentation !!!
+
+
+
+main only 3 lines max
+respect of the epitech coding style

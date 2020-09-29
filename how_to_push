@@ -1,0 +1,7 @@
+Always do
+
+git add "name of your file"
+git commit -m "message commit"
+git pull
+git push origin "name of the branch you want to push you work"
+
